@@ -171,7 +171,7 @@ const AstrologyReader: React.FC = () => {
             form={form}
             layout="vertical"
             onFinish={handleFinish}
-            initialValues={{ gender: "Nữ" }}
+            initialValues={{ gender: "Nam" }}
             requiredMark={false}
           >
             <Form.Item
@@ -192,8 +192,8 @@ const AstrologyReader: React.FC = () => {
               rules={[{ required: true }]}
             >
               <Select size="large">
-                <Option value="Nữ">Nữ</Option>
                 <Option value="Nam">Nam</Option>
+                <Option value="Nữ">Nữ</Option>
                 <Option value="Khác">Khác</Option>
               </Select>
             </Form.Item>
