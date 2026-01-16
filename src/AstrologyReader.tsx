@@ -210,7 +210,7 @@ const AstrologyReader: React.FC = () => {
                 <DatePicker
                   style={{ width: "100%" }}
                   size="large"
-                  format="DD/MM/YYYY"
+                  format="YYYY-MM-DD"
                   placeholder="Chọn ngày"
                 />
               </Form.Item>
